@@ -26,6 +26,16 @@ class Imoveis {
     }
 }
 
+
+
+
+class rural extends Imoveis {
+
+    // You can define additional properties or methods here if needed
+}
+
+$Imovel02 = new rural();
+
 $Imovel01 = new Imoveis("Comercial", 1000000.00, "ZonaNorte", 50000, "Espaço bem localizado em av...");
 echo "--------------\n";
 echo $Imovel01->regiao . "\n";
