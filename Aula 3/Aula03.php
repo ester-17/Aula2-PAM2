@@ -35,6 +35,8 @@ class rural extends Imoveis {
 }
 
 $Imovel02 = new rural();
+$Imovel02->__set('tipoImovel', 'Casa');
+$Imovel02->__set('valor', 1000000);
 
 $Imovel01 = new Imoveis("Comercial", 1000000.00, "ZonaNorte", 50000, "Espaço bem localizado em av...");
 echo "--------------\n";
