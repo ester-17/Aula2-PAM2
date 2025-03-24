@@ -44,7 +44,7 @@ class Gato extends Animal {
 }
 
 // Instanciando objetos das classes Cachorro e Gato
-$cachorro = new Cachorro("Lotária", 5);
+$cachorro = new Cachorro("Dentinho", 5);
 $gato = new Gato("Toninho", 3);
 
 // Exibindo as informações do cachorro
