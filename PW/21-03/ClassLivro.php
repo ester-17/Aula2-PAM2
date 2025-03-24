@@ -51,11 +51,11 @@ class Livro {
 }
 
 // Exemplo de uso da classe Livro
-$livro1 = new Livro("1984", "George Orwell", 1949, 29.90);
+$livro1 = new Livro("O Cortiço", "Aluízio de Azevedo", 1890, 29.90);
 
-echo "Título: " . $livro1->getTitulo() . "\n";
-echo "Autor: " . $livro1->getAutor() . "\n";
-echo "Ano de Publicação: " . $livro1->getAnoPublicacao() . "\n";
-echo "Preço: R$ " . number_format($livro1->getPreco(), 2, ',', '.') . "\n";
+echo "Título: " . $livro1->getTitulo() . "<br>";
+echo "Autor: " . $livro1->getAutor() . "<br>";
+echo "Ano de Publicação: " . $livro1->getAnoPublicacao() . "<br>";
+echo "Preço: R$ " . number_format($livro1->getPreco(), 2, ',', '.') . "<br>";
 
 ?>
