@@ -37,7 +37,7 @@ class Funcionario {
 }
 
 // Instanciando e testando a classe Funcionario
-$funcionario = new Funcionario("João", 3000.00, "senha123");
+$funcionario = new Funcionario("Ester", 3000.00, "abacaxi123");
 
 // Exibindo informações do funcionário
 $funcionario->exibirInformacoes();
@@ -48,7 +48,7 @@ echo "Após aumento:<br>";
 $funcionario->exibirInformacoes();
 
 // Alterando a senha
-$funcionario->setSenha("novaSenha456");
+$funcionario->setSenha("abacaxi456");
 echo "Senha alterada com sucesso!<br>";
 
 // Tentativas de acesso aos atributos
