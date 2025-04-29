@@ -1,0 +1,30 @@
+Protocolos
+
+Protocolo é um conjunto de regras nas quais se dá uma comunicação 
+entre 2 ou mais dispositivos.
+
+Protocolos podem funcionar em diversas camadas dos modelos OSI ou TCP/IP.
+
+Exemplos:
+
+TCP- Transmission control protocol
+IP-Internet protocol
+FTP- File transfer protocol
+
+PoP3
+SMTP > Email
+Telnet- Acesso via terminal
+SSH- Acesso via terminal seguro
+SNMP- Simple network manegement protocol
+
+HTTP- Hyper text transfer protocol
+HTTPS- Hyper text transfer protocol segure
+
+Verbos no HTTP:
+
+- Get -> (Consulta)
+- Post -> (Inserir registros e/ou dados)
+- Put -> (Atualiza um registro e/ou dados, substituindo)
+- Delete -> (Exclui o registro e/ou dados)
+- Patch -> (Atualiza um registro e/ou dados, alterando apenas o que foi modificado ) 
+
